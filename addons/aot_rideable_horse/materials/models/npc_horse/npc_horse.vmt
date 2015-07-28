@@ -1,0 +1,34 @@
+"VertexLitGeneric"
+{
+	
+	"$baseTexture"	"models/Npc_Horse/Npc_Horse"
+	"$surfaceprop" "flesh"
+	"$bumpmap" "models/Npc_Horse/Npc_Horse_normal"
+
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 0.8
+	"$envmapsaturation" 1
+	"$envmaptint" "[0.8 0.8 0.8]"
+
+
+	"$envmap" "env_cubemap"
+
+
+
+	"$Freezefxenvmap" "FX/Freeze/freeze_env_cubemap"
+	"$Freezefxenvmapmask" "FX/Freeze/Freeze_envmapmask"
+	"$Freezemaptint" "[0.5 0.5 0.5]"
+	"$Freezefxmap" "models/Npc_Guard/guard_freezegradient"
+
+	"vertexlitgeneric_HDR_dx9"
+
+	{
+
+               "$envmaptint" "[.5 .5 .5]"
+               "$Freezefxenvmap" "FX/Freeze/fz_npc_cubemap_hdr_"
+               "$Freezefxenvmaptint" "[1 1 1]"
+
+	}
+
+
+}

@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	
+	"$baseTexture"	"models/Horse/Npc_Horse"
+	"$surfaceprop" "flesh"
+	"$bumpmap" "models/Horse/Npc_Horse_normal"
+
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 0.8
+	"$envmapsaturation" 1
+	"$envmaptint" "[0.8 0.8 0.8]"
+
+
+	"$envmap" "env_cubemap"
+	"$translucent" "1"
+}
